@@ -1,0 +1,39 @@
+DEADPIXEL ARCADE README PACK
+
+Copy these into the root of your existing game repository:
+  README.md
+  assets/deadpixel-banner.gif
+  .github/workflows/snake.yml
+
+This pack does NOT contain or modify your game source code.
+Keep gaming_zone_improved.py and requirements.txt in your repository.
+
+Commit and push the three supplied files. Hidden folders matter: .github must
+be included. The custom GIF works immediately once uploaded.
+
+REAL CONTRIBUTION ANIMATION
+1. On GitHub open the repository's Actions tab.
+2. Enable Actions if GitHub prompts you.
+3. Select Snake Grid, then Run workflow on the default branch.
+4. A successful run creates assets/contribution-snake.svg and commits it.
+5. Reload README. Images may take a little time to refresh in GitHub's cache.
+
+The generator reads the repository owner's contribution graph automatically.
+Use this repository under your personal account for your own calendar.
+No personal access token is needed; it uses the automatic GitHub Actions token.
+
+If writes are blocked, check Settings > Actions > General > Workflow permissions.
+Repository rules or organization policy may require extra approval or a
+pull-request-based publishing approach. This workflow never force-pushes.
+
+The workflow was assembled from Platane/snk's documented v3 interface but has
+not been run on your GitHub account. It requests contents: write to commit
+only the generated snake asset. Review third-party actions before enabling.
+
+The top GIF is decorative; only the generated SVG represents contributions.
+Neither animation changes the native GitHub contribution calendar.
+
+Suggested repository name: deadpixel-arcade
+Suggested About text:
+A zombie-themed local multiplayer arcade. Seven mini-games, one keyboard,
+and a contribution snake. Built with Python and Pygame.
