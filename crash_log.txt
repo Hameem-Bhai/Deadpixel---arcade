@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "g:\pygame\gaming_zone_improved.py", line 2234, in <module>
+    current_scene.draw(screen)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "g:\pygame\gaming_zone_improved.py", line 1133, in draw
+    pygame.draw.circle(trail_surf, (*BONE, alpha), (size, size), size)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid color argument
